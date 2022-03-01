@@ -17,6 +17,7 @@ module.exports = {
         content: "width=device-width,initial-scale=1,user-scalable=no",
       },
     ],
+
   ],
   theme: "reco",
   themeConfig: {
@@ -85,5 +86,8 @@ module.exports = {
     '/': {
       lang: 'zh-CN' // 将会被设置为 <html> 的 lang 属性
     }
-  }
+  },
+  plugins: [
+    ['demo-code']
+  ]
 }
